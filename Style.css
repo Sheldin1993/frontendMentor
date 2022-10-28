@@ -1,0 +1,60 @@
+﻿body {
+    font-family: Montserrat;
+    width: 1440px;
+}
+h4 {
+    color: grey
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: center;
+    width: 540px;
+    height: 450px;
+    border-radius: 2px;
+}
+
+.card_left {
+    width:50%;
+}
+
+.card_right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 900px;
+    padding-right: 30px;
+}
+
+.img_class {
+    width: 250px;
+    border-radius: 3px;
+}
+.card_right_h4 {
+
+}
+
+.card__right_h1{
+
+}
+
+.card__right_description {
+
+}
+
+.onSale {
+    font-weight: 700;
+    color: #3B8069;
+}
+
+.beforeSale {
+    font-weight: 500;
+}
+.card__right_addToCard {
+    width: 70%;
+    border-radius: 5px;
+    color: white;
+    background-color: #1A4031;
+}
